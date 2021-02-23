@@ -1,0 +1,55 @@
+#container{
+    display:grid;
+    height:240vh;
+    width:100vw;
+    grid-template-rows: 8vh 10vh 5vh 50vh 25vh;
+    background-color: rgb(8, 8, 8);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+#bpm{   
+    margin:1px;
+    width:30vw;
+    z-index:1px;
+    border-radius: 1vw;
+}
+
+#mainlogo{
+    width: 8vw
+}
+
+header{
+    display: flex;
+    background-color:rgb(49, 0, 119)
+}
+
+nav{
+    margin-top:30px;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    padding-top:1; 
+    display: flex;
+    background-color:rgb(49, 0, 119);
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5vw;
+}  
+
+.atext{
+    font-size: 30px; 
+}
+
+.a1{
+    margin-top:30px;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    padding-top:1; 
+    display: flex;
+    background-color:rgb(49, 0, 119);
+    align-items: center;
+    justify-content: space-around;
+    font-size: 16px; 
+    border-radius: 1vw;
+
+}
