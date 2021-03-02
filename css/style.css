@@ -2,9 +2,11 @@
     display:grid;
     height:240vh;
     width:100vw;
-    grid-template-rows: 8vh 10vh 5vh 50vh 25vh;
+    grid-template-rows: 8vh 10vh 50vh 50vh 25vh 120vh;
     background-color: rgb(8, 8, 8);
     font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:30px;
+    margin:-10px;
     
 }
 
@@ -14,9 +16,15 @@
     z-index:1px;
     border-radius: 1vw;
 }
-
+#skeleton{   
+    margin:1px;
+    width:10vw;
+    height:10vw;
+    z-index:1px;
+    border-radius: 1vw;
+}
 #mainlogo{
-    width: 8vw
+    width: 150px
 }
 
 header{
@@ -30,7 +38,7 @@ nav{
     margin-right: 15vw;
     padding-top:1; 
     display: flex;
-    background-color:rgb(49, 0, 119);
+    background-color:rgb(85, 0, 204);
     align-items: center;
     justify-content: space-around;
     border-radius: 5vw;
@@ -44,7 +52,7 @@ nav{
     margin-top:30px;
     margin-left: 15vw;
     margin-right: 15vw;
-    padding-top:1; 
+    padding:20px; 
     display: flex;
     background-color:rgb(49, 0, 119);
     align-items: center;
@@ -53,3 +61,56 @@ nav{
     border-radius: 1vw;
 
 }
+.a2{
+    margin-top:30px;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    padding-top:1; 
+    display: flex;
+    background-color:rgb(49, 0, 119);
+    align-items:stretch;
+    font-size: 16px; 
+    border-radius: 1vw;
+}
+footer{
+    background-color:rgb(49, 0, 119);
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+@media screen and (max-width: 767px) {
+#container{
+    background-color: rgb(8, 8, 8);
+    transition: 0.5s;
+    grid-template-rows: 8vh 10vh;
+}
+
+nav{
+    margin-top:-3vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding-top:1; 
+    display: flex;
+    background-color:rgb(85, 0, 204);
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5vw;
+}  
+#mainlogo{
+    width: 100px
+}
+.a{
+    margin-left: 0vw;
+    margin-right: 0vw;
+    border-radius: 0px;
+}
+}
+
+@media screen and (min-width: 767px) {
+#container{
+    background-color: rgb(8, 8, 8);
+    transition: 0.5s;
+}   
+}
+
