@@ -382,3 +382,10 @@ nav{
 
 }
 
+
+
+
+.news-feed-list.darkmode {
+    background-color: black;
+    color: white;
+  }
