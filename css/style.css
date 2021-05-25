@@ -76,10 +76,14 @@ nav{
     cursor: pointer;
     display: inline;
     z-index: 10;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.8);
+    -webkit-text-fill-color: black
 }
 
 .menu-button i.material-icons{
     font-size: 2.5rem;
+    
 }
 
 .news-feed-list {
@@ -119,6 +123,15 @@ nav{
     overflow: hidden;
     
 }
+.news-block-text-title {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 210, 221);
+}
+.news-block-text-bread {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255,0.5);
+}
+
 .news-update-block {
     overflow: hidden;
     display: flex;
